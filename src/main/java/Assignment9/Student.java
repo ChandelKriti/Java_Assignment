@@ -47,6 +47,7 @@ public class Student {
 		
 	}
 	
+	
 	public static void main(String args[]) {
 		Student  s = new Student(1,"ABC",23,"Science");
 		try {
