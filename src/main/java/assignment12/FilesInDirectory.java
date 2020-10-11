@@ -5,7 +5,7 @@ import java.io.*;
 public class FilesInDirectory {
 
  
-	    	public static void main(String[] args) {
+	    	public File getFiles() {
 	    	    // Folder from which files are fetched
 	    	    File file = new File("C:\\Program Files\\Java\\jre1.8.0_162");
 	    	    // Implemented as lambda. filter all the files
@@ -15,5 +15,6 @@ public class FilesInDirectory {
 	    	    for(File f : fileList) {
 	    	      System.out.println(f.getName());
 	    	    }
+				return file;
 	    	  }
 }

@@ -5,7 +5,7 @@ import java.io.File;
 
 public class Subdirectories {
 
-		public static void main(String[] args) {
+		public void subdirectories() {
 			File dir = new File("C:\\Program Files\\Java\\jdk1.8.0_162");
 			/*// Filter sub-directories using anonymous class
 			File[] subDirs1 = dir.listFiles(new FileFilter() {

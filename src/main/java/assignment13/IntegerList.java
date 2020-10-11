@@ -7,10 +7,10 @@ public class IntegerList {
 
 
 	    // create an object of list using ArrayList
-	    static List<Integer> numList = new ArrayList<Integer>();
+	     ArrayList<Integer> numList = new ArrayList<Integer>();
 
 	    // preparing our data
-	    public static List getNumList(){
+	    public  ArrayList<Integer> getNumList(){
 
 	        
 	    	numList.add(2);
@@ -22,10 +22,10 @@ public class IntegerList {
 	        return numList;
 	    }
 
-	    public static void main( String[] args ) {
+	    List<Integer> numberList = getNumList();
+	    
+	    public void integerList() {
 
-	        List<Integer> numberList = getNumList();
-	    	
 	    	System.out.println("list values");
 	        numberList.forEach((Integer value) -> System.out.println(value));
 	        
